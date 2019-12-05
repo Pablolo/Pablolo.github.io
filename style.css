@@ -60,6 +60,12 @@ nav a {
     padding: 5px;
 }
 
+.selected {
+    color: white !important;
+    background-color: rgb(251, 59, 73);
+    padding: 5px;
+}
+
 .blackHeart {
     width: 20px;
     margin-right: 1rem;
@@ -120,12 +126,6 @@ nav a {
     align-items: center;
 }
 
-#section2 img {
-    width: 250px;
-    height: 250px;
-    margin: 50px 0;
-}
-
 #section2 h1 {
     font-size: 2.25rem;
     font-weight: 600;
@@ -138,7 +138,7 @@ nav a {
 #section2 article {
     font-size: 16px;
     text-align: center;
-    margin-bottom: 150px;;
+    margin-bottom: 10px;;
 }
 
 #section3 {
@@ -148,18 +148,18 @@ nav a {
 }
 
 #section3 > div {
-    display: flex;
+/*    display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 150px;
+    margin: 0 150px;*/
 }
 
-#section3 img {
-    width: 50px;
-    height: 50px;
+#section2 img {
+    width: 300px;
+    height: 260px;
 }
 
-#section3 > div > div > h3 {
+#section2 > div > div > h3 {
     color: #ED1C24;
 }
 
@@ -176,8 +176,13 @@ nav a {
     margin-top: 50px;
 }
 
-#player-auron {
+#player-embed {
     margin: auto;   
-    width: 60%;
+    width: 70%;
     padding-top: 20px;
 }
+
+#player-embed > div > h1 {
+    text-align: center;
+}
+
