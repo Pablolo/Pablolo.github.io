@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta charset="UTF-8">
         <title>Karmaland 4</title>
     </head>
     <body>
         <header>
-            <div>
+            <div id="primermenu">
                 <div>
                     <img class="blackHeart" src="./images/black-heart.png" alt="black heart">
                     <span><b><a href="./index.html"> Karmaland 4 </a>	</b></span>
@@ -20,18 +22,19 @@
                     </ul>
                 </nav>
             </div>
-            <div id="segundomenu">
-                <ul id="menuintegrantes">
-                    <li> <a href="./elrubius.html"> elRubius </a> </li>
-                    <li> <a href="./auronplay.html"> AuronPlay </a> </li>
-                    <li> <a href="./vegetta.html"> Vegetta777 </a> </li>
-                    <li> <a href="./luzu.html"> LuzuVlogs </a> </li>
-                    <li> <a href="./lolito.html"> LolitoFdez </a> </li>
-                    <li> <a href="./willyrex.html"> Willyrex </a> </li>
-                    <li> <a href="./alexby.html"> Alexby </a> </li>
-                    <li> <a href="./fargan.html"> Fargan </a> </li>
-                    <li> <a href="./mangel.html"> Mangel </a> </li>
-                 </ul>
+            <div class="youtube-nav" id="segundomenu">
+                    <a href="./elrubius.html"> elRubius </a> 
+                    <a href="./auronplay.html"> AuronPlay </a> 
+                    <a href="./vegetta.html"> Vegetta777 </a> 
+                    <a href="./luzu.html"> LuzuVlogs </a> 
+                    <a href="./lolito.html"> LolitoFdez </a> 
+                    <a href="./willyrex.html"> Willyrex </a> 
+                    <a href="./alexby.html"> Alexby </a> 
+                    <a href="./fargan.html"> Fargan </a> 
+                    <a href="./mangel.html"> Mangel </a> 
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					   <i class="fa fa-bars"></i>
+					</a>
             </div>
         </header>
         <section id="section1">
@@ -105,6 +108,16 @@
 <!--         <section id="section3">
         </section> -->
     </body>
+<!--     <script type="text/javascript">
+			  function myFunction() {
+			  var x = document.getElementById("segundomenu");
+			  if (x.className === "youtube-nav") {
+			    x.className += "responsive";
+			  } else {
+			    x.className = "youtube-nav";
+			  }
+			}
+    </script> -->
     <script src="./script.js"></script>
 </html>
 
